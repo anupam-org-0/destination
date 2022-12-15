@@ -1,7 +1,5 @@
 name: "Test required workflow"
-on:
-  pull_request
-      
+on: pull_request
 jobs: 
   job-always-pass:
     name: Succesful job
